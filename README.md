@@ -1,10 +1,10 @@
 Getting_and_Cleaning_Data
 =========================
 
-Coursera course
-Getting and Cleaning Data
-Course Project
-2014-10-26
+Coursera course  
+Getting and Cleaning Data  
+Course Project  
+2014-10-26  
 
 Purpose: 
 -------- 
