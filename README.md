@@ -8,17 +8,16 @@ Course Project
 
 Purpose: 
 -------- 
-To demonstrate ability to collect, work with and clean a data set.
+This repo was created as part of a course to demonstrate ability to collect, work with and clean a data set.
 
-Objectives:
------------
-	1. Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-	2. Create an R script that does the follwing:
-		a. Merges the training and test sets to create one data set
-		b. Extracts only the measurements on the mean and standard deviation for each measurement.
-		c. Uses descriptive activity names to name the activities in the data set.
-		d. Appropriately labels the data set with the descriptive variable names.
-		e. Creates a second, independent tidy data set with the average of each variable for each acitivity and each subject.
+The run_analysis.R script will do the following tasks:
+------------------------------------------------------
+	1. Loads the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into RStudio
+	2. Applies descriptive variable names to the data  
+	3. Merges the training and test sets to create one data set  
+	4. Extracts only the measurements on the mean and standard deviation for each measurement.
+	5. Uses descriptive activity names to name the activities in the data set.
+	6. Creates a second, independent tidy data set with the average of each variable for each acitivity and each subject and writes the tidy data to the directory.
 
 
 This repository contains:

@@ -1,8 +1,9 @@
-#Code Book
-
+#Code Book  
+As part of a Coursera course, a data set was obtained from the web and modified as instructed to practice formating data for analysis.  
+This file includes the information provided with the original data set and describes the formatting incorporated to produce a tidy data set as instructed.  
 The data used here was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-##The following information is from the authors and is included with the data set:
+##The following information is included with the downloadable data set:
 
 Human Activity Recognition Using Smartphones Dataset, Version 1.0
 
@@ -68,3 +69,9 @@ Use of this dataset in publications must be acknowledged by referencing the foll
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+
+###For the purposes of this course, a R script was created to manipulate the data as follows:  
+	1. The variables were given descriptive names  
+	2. The training and test data were merged to create 1 data table  
+	3. The mean and standard deviation variables were extracted from the complete data set.  
+	4. The data were sorted by subject then activity. 
