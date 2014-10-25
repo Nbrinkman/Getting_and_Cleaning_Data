@@ -22,6 +22,6 @@ The run_analysis.R script will do the following tasks:
 
 This repository contains:
 -------------------------
-	1. A Code Book reiterating the variables from the downloaded data.  The information was taken from the authors Code Book.
+	1. A Code Book reiterating the variables from the downloaded data, taken from the authors Readme file.  Also included is a description of the subset of data used here.
 	2. A R script containing the code used to format the downloaded data.
 	3. The tidy data set organized by subject, activity, and values of each measurment.
